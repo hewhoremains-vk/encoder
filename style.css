@@ -1,0 +1,73 @@
+/* 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder</title>
+</head>
+<body>
+    <label for="text-input">Enter text:</label>
+    <input type="text" id="textInput" name="textInput" placeholder="Type encoded text...">
+    <label for="dob">Enter DOB:</label>
+    <input type="date" name="dob" id="dob">
+    <button class="submit">Get</button>
+    <p class="decodedTextBox">Decoded Text</p>
+</body>
+*/
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    padding: 150px 40px;
+}
+
+h5 {
+    padding-bottom: 40px;
+    color: #333;
+}
+
+label {
+    margin: 10px;
+}
+
+
+input[type="text"], input[type="date"] {
+    padding: 10px;
+    width: 300px;
+    max-width: 95vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px;
+}
+
+button.submit {
+    margin-top: 20px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #484848;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button.submit:hover {
+    background-color: #282828;
+}
+
+.decodedTextBox {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 95vw;
+}
+
